@@ -1,0 +1,71 @@
+body {
+    background-color: gainsboro;
+}
+
+.header {
+    background: rgb(173, 18, 131);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(203, 96, 179, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(141, 20, 186, 1) 56%, rgba(141, 20, 186, 1) 75%, rgba(141, 20, 186, 1) 93%, rgba(141, 20, 186, 1) 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(203, 96, 179, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(141, 20, 186, 1) 56%, rgba(141, 20, 186, 1) 75%, rgba(141, 20, 186, 1) 93%, rgba(141, 20, 186, 1) 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 0%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(203, 96, 179, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(173, 18, 131, 1) 1%, rgba(141, 20, 186, 1) 56%, rgba(141, 20, 186, 1) 75%, rgba(141, 20, 186, 1) 93%, rgba(141, 20, 186, 1) 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ad1283', endColorstr='#8d14ba', GradientType=1);
+    /* IE6-9 */
+    display: flex;
+    justify-content: flex-start;
+    font-size: 60px;
+    padding-left: 30px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.buttonright {
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+.checkbox {
+    font-size: 30px;
+}
+
+.todos {
+    background-color: white;
+}
+
+.input {
+    width: 250px;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.division {
+    border-bottom: 1.5px solid black;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.fas {
+    color: navy
+}
+
+@media only screen and (min-width: 600px) {}
